@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiURL =  'https://memory-backend-4c97.onrender.com/'
+const apiURL =  'http://localhost:5000'
 const API = axios.create({ baseURL: apiURL })
 
 API.interceptors.request.use((req) => {
